@@ -224,7 +224,7 @@ typedef enum HTTPStatus
      * - #HTTPClient_Send
      */
     HTTPInsufficientMemory,
-
+    HTTPSecurityAlertResponseHeadersSizeLimitExceeded,
     /**
      * @brief A response contained the "Connection: close" header, but there
      * was more data at the end of the complete message.
