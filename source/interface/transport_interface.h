@@ -302,7 +302,7 @@ typedef struct TransportInterface
 {
     TransportRecv_t recv;               /**< Transport receive function pointer. */
     TransportSend_t send;               /**< Transport send function pointer. */
-    TransportWritev_t writev;           /**< Transport writev function pointer. */
+    //TransportWritev_t writev;           /**< Transport writev function pointer. */
     NetworkContext_t * pNetworkContext; /**< Implementation-defined network context. */
 } TransportInterface_t;
 /* @[define_transportinterface] */
